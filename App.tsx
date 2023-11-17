@@ -1,10 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import {
-  Image,
-  View
-} from 'react-native';
+import { Image, View } from 'react-native';
 import Home from './src/screens/Home';
 import Community from './src/screens/Community';
 import Network from './src/screens/Network';
